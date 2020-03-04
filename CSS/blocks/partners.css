@@ -1,0 +1,17 @@
+.partners {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.partners__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.partners__item {
+    width: 30%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}

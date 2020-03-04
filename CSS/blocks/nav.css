@@ -1,0 +1,124 @@
+.nav__list {
+    font-family: "Gotham Pro";
+    text-transform: uppercase;
+}
+
+.nav__item {
+    margin-bottom: 35px;
+}
+
+.nav__link {
+    position: relative;
+    text-decoration: none;
+    color: #ec1e79;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.nav__link:hover {
+    color: #000000;
+    transition: 0.5s;
+}
+
+/* icon-home
+======================================================================= */
+
+.nav__link--icon-home:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -25px;
+    width: 17px;
+    height: 15px;
+    background: url('../../image/icons/css_sprites .png') -90px -10px;
+    top: -4px;
+}
+
+.nav__link--icon-home:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -25px;
+    width: 17px;
+    height: 15px;
+    background: url('../../image/icons/css_sprites .png') -90px -45px;
+}
+
+.nav__link--icon-home:hover:before {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.nav__link--icon-home:hover:after {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+/* icon-reviews
+======================================================================= */
+
+.nav__link--icon-reviews:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -25px;
+    width: 20px;
+    height: 18px;
+    background: url('../../image/icons/css_sprites .png') -50px -10px;
+    top: -4px;
+}
+
+.nav__link--icon-reviews:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -25px;
+    width: 20px;
+    height: 18px;
+    background: url('../../image/icons/css_sprites .png') -10px -10px;
+}
+
+.nav__link--icon-reviews:hover:before {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.nav__link--icon-reviews:hover:after {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+/* icon-price
+======================================================================= */
+
+.nav__link--icon-price:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -25px;
+    width: 19px;
+    height: 16px;
+    background: url('../../image/icons/css_sprites .png') -49px -48px;
+    top: -4px;
+}
+
+.nav__link--icon-price:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -25px;
+    width: 19px;
+    height: 16px;
+    background: url('../../image/icons/css_sprites .png') -10px -48px;
+}
+
+.nav__link--icon-price:hover:before {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.nav__link--icon-price:hover:after {
+    opacity: 0;
+    transition: 0.5s;
+}

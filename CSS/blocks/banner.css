@@ -1,0 +1,10 @@
+.banner {
+    background-color: #27273e;
+}
+
+.banner-pic {
+    background-image: url('../../image/banner.png');
+    width: 100%;
+    min-height: 359px;
+}
+

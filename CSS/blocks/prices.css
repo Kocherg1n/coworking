@@ -1,0 +1,102 @@
+.price {
+    margin-top: 50px;
+}
+
+.price__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.price__item {
+    width: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.price__pic {
+    width: 250px;
+    height: 150px;
+    border-radius: 2px;
+}
+
+.price__pic--one {
+    background: url("../../image/content/prices/price2.png");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price__pic--three {
+    background: url("../../image/content/prices/price5.png");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price__pic--ten {
+    background: url("../../image/content/prices/price1.png");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price__pic--unlimit {
+    background: url("../../image/content/prices/price3.png");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price__pic--all{
+    background: url("../../image/content/prices/price4.png");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price__pic--talks {
+    background: url("../../image/content/prices/price6.png");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price__pic:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.price__name {
+    color: #5dd1f8;
+    font-size: 24px;
+    font-weight: 700;
+    z-index: 10;
+}
+
+.price__price {
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.price__name span {
+    color: #ec1e79;
+}
+
+.price__desc {
+    margin-top: 15px;
+    font-size: 16px;
+}

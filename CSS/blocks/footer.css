@@ -1,0 +1,43 @@
+.footer {
+    height: 77px;
+    background-color: #27273e;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__autor {
+    width: 294px;
+}
+
+.footer__text {
+    color: #fff;
+}
+
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer__autor-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer__autor-link:hover {
+    color: #ec1e79;
+    transition: 0.5s;
+}
+
+.footer__link:hover {
+    color: #ec1e79;
+    transition: 0.5s;
+}
+
+
+

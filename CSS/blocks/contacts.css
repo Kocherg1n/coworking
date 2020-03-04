@@ -1,0 +1,21 @@
+.contacts {
+    font-family: "Gotham Pro";
+    font-weight: 700;
+}
+
+.contacts__phone {
+    color: #ffffff;
+    font-size: 21px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.contacts__hours {
+    color: #ec1e79;
+    text-decoration: underline;
+    font-style: normal;
+    text-align: right;
+    opacity: 0.7;
+    margin-top: 5px;
+    cursor: pointer;
+}
